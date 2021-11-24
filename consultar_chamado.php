@@ -8,7 +8,7 @@
   $chamados = array();
 
   //abrir o arquivo.txt
-  $arquivo = fopen('arquivo.txt', 'r');
+  $arquivo = fopen('../../app_help_desk/arquivo.txt', 'r');
 
   //percorrer o arquivo.txt enquanto houver registros a serem recuperados
   while(!feof($arquivo)){ //testa pelo fim de um arquivo. Quando é encontrado um registro, retorna false. Utilizamos o operador de negação para transformar em 'true' e entrar no while
